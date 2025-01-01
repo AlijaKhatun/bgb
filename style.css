@@ -41,7 +41,7 @@ p {
 i.fa-solid.fa-xmark {
   color: #fff;
   padding: 10px 11px;
-  background-color: red;
+  background-color: #9b59b6;
   border-radius: 50%;
   border: 2px solid #ddd;
 }
@@ -129,7 +129,7 @@ button.search-btn {
 /*----------------------------banner---------*/
 
 #slides {
-  width: 1050px;
+  max-width: 1050px;
   height: 400px;
   margin: auto;
 }
@@ -187,7 +187,8 @@ button.search-btn {
 
 .slide-img {
   height: 400px;
-  width: 1050px;
+  max-width: 100%;
+  object-fit: fill;
 }
 
 .banner-title {

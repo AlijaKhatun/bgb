@@ -67,7 +67,7 @@ function makeSlideShow(slideId) {
     if (index === slideImage.length) {
       index = 0;
     }
-    slidesInner.style.transform = `translate3d(${index * -1050}px ,0,0)`;
+    slidesInner.style.transform = `translate3d(${index * -100}% ,0,0)`;
     //console.log(index * -1200);
   }, 3000);
 }
